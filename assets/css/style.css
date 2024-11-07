@@ -1,0 +1,160 @@
+.corps {
+    background-color: #c9b5bb;
+    padding: 0%;
+}
+
+/* Entete */
+.entete {
+    display: inline;
+}
+
+.log {
+    color: blue;
+}
+.logo {
+    color: red;
+}
+.lg{
+    padding-right: 0%;
+}
+.h1{
+    text-align: center;
+    padding-inline-start: 0;
+    justify-self: unset;
+}
+.monlogo {
+    width: 70px;
+    border: 1px rgb(25, 18, 44) solid;
+    margin: 5px;
+    box-shadow: 3px 3px #0e0503;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    height: 82px;
+    line-height: 15px;
+}
+
+/* Ma navigation */
+
+.barnavig ul {
+    list-style: none;
+    background-color: white;
+
+}
+.barnavig ul li {
+    display: inline-flex;
+    margin: 1rem;
+}
+.barnavig ul li a {
+    text-decoration: solid;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-inline: 150px;
+
+}
+
+.barnavig ul li a:hover{
+    border: 1px solid #f8f9f9;
+    background: #173559;
+    color: #e8491d;
+}
+
+
+/* Mon titre */
+
+.montitre {
+    text-align: center;
+    border: #c9b5bb;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+
+}
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img {
+ 
+    border: 1.5px rgb(92, 38, 38) solid;
+    display: block;
+    overflow: hidden;
+    flood-opacity: right;
+    border-radius: 50%;
+}
+
+/* Contennu */
+
+.contenuprincipal {
+    display: flex;
+}
+
+.contenuprincipal h2{
+    color: #407fd6;
+    font-family: Arial Black;
+}
+.contenuprincipal{
+    display: flex;
+     border-bottom:2px #c72121 solid; /*ligne se trouvant en bas du contenu */
+    border-top:2px #4c0eddea solid; /*ligne se trouvant en haut du contenu */
+}
+.experience {
+    padding: 0;
+    margin: 0;
+}
+
+.experience h2 {
+    padding: 0;
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 0 black, 1px 0 black, 0 -1px black;
+}
+
+.competences {
+    padding: 0;
+    margin: 0;
+}
+
+.competences h2 {
+    padding: 0;
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 0 black, 1px 0 black, 0 -1px black;
+}
+
+.formation {
+    padding: 0;
+    margin: 0;
+}
+
+.formation h2 {
+    padding: 0;
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 0 black, 1px 0 black, 0 -1px black;
+}
+
+.formation{
+    width: 25%;
+}
+.experience{
+    width: 25%;
+}
+.competences{
+    width: 25%;
+}
+
+/* pied de page */
+
+.piedp{
+text-decoration: solid;
+
+}
+
+/* Responsive */
+@media (max-widith:1230px) {
+    .entete {
+        width: 100%;
+    }
+    
+}
